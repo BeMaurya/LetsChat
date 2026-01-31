@@ -87,11 +87,11 @@ The LetsChat Android application follows a client–cloud architecture where the
   - Click Run in Android Studio
 
 ### ✅ Notes
-> 📌 Make sure Firebase services (Database/Auth) are enabled in the Firebase console.
+📌 Make sure Firebase services (Database/Auth) are enabled in the Firebase console.
 
 ## ❤️ Contributions
 Contributions are welcome!
-Fork the repo → Create a branch → Add feature → Submit PR
+> Fork the repo → Create a branch → Add feature → Submit PR
 
 </br></br>
 
