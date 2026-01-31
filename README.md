@@ -9,21 +9,6 @@ It focuses on understanding Android app architecture, Firebase integration, and 
 
 This project was developed primarily for learning and educational purposes.
 
-## ✨ Features
-- 💬 Real-time messaging
-- 👥 User-to-user chat functionality
-- 🔄 Live message synchronization using Firebase
-- 📱 Native Android UI
-- 🔐 Firebase-based backend configuration
-- 🧪 Basic test structure included
-
-## 🧰 Tech Stack
-- 🤖 Android (Java)
-- ☕ Java
-- 🔥 Firebase (Realtime Database / Services)
-- 🛠️ Gradle (Build system)
-- 🧪 Android Studio
-
 ## 📁 Project Structure
 ```text
 LetsChat/
@@ -46,13 +31,52 @@ LetsChat/
 ├── .gitignore
 └── README.md
 ```
+## ✨ Features
+- 💬 Real-time messaging
+- 👥 User-to-user chat functionality
+- 🔄 Live message synchronization using Firebase
+- 📱 Native Android UI
+- 🔐 Firebase-based backend configuration
+- 🧪 Basic test structure included
 
+## 🧰 Tech Stack
+- 🤖 **Android:** Java  
+- ☕ **Programming Language:** Java  
+- 🔥 **Backend:** Firebase (Realtime Database / Services)  
+- 🛠️ **Build System:** Gradle  
+- 🧪 **IDE:** Android Studio  
+
+## 🧩 Architecture Overview  
+The LetsChat Android application follows a client–cloud architecture where the Android app communicates with Firebase for real-time messaging and data synchronization.
+
+## 🔁 Architecture Flow (High Level)
+```text
++--------------------+
+|  Android App (UI)  |
+|  Java Activities   |
++---------+----------+
+          |
+          |  Read / Write Messages
+          v
++--------------------+
+|     Firebase       |
+|  Realtime Database |
+|  / Services        |
++--------------------+
+          ^
+          |
+          |  Live Updates
++---------+----------+
+| Other App Clients  |
+| (Users / Devices) |
++--------------------+
+```
 ## ⚙️ How to Run the Project
 ### 🧱 Prerequisites
-- Android Studio installed
-- Java JDK
-- Firebase account
-- Android emulator or physical device
+- 🧪 Android Studio installed  
+- ☕ Java JDK  
+- 🔥 Firebase account  
+- 📱 Android emulator or physical device  
 
 ### ▶️ Run Instructions
 - 1️⃣ Clone the repository
@@ -61,16 +85,21 @@ LetsChat/
   ```
 - 2️⃣ Open the project in Android Studio
 - 3️⃣ Connect Firebase
-- Ensure google-services.json is present
-- Update Firebase configuration if required
+   - Ensure `google-services.json` is present
+   - Update Firebase configuration if required
 - 4️⃣ Sync Gradle files
-- 5️⃣ Run the app on an emulator or device ▶️
+- 5️⃣ Run the application ▶️
+  - Select an emulator or connected device
+  - Click Run in Android Studio
+
+### ✅ Notes
+> 📌 Make sure Firebase services (Database/Auth) are enabled in the Firebase console.
 
 ## ❤️ Contributions
 Contributions are welcome!
 Fork the repo → Create a branch → Add feature → Submit PR
 
-
+</br></br>
 
 <div align="center">
 <p>📘 This project is created strictly for educational and learning purposes.</p>
