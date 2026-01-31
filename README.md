@@ -3,12 +3,6 @@
 LetsChat is a simple Android-based chat application that enables users to communicate through real-time messaging.  
 Built using Android (Java) and Firebase, this project demonstrates core concepts of mobile app development and real-time communication.
 
-## 📌 Project Overview
-The LetsChat application allows users to exchange messages in real time using a cloud backend.  
-It focuses on understanding Android app architecture, Firebase integration, and real-time data synchronization.  
-
-This project was developed primarily for learning and educational purposes.
-
 ## 📁 Project Structure
 ```text
 LetsChat/
